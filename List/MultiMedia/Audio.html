@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio controls muted loop autoplay>
+        <source src="../MultiMedia/Audio/sample-3s.mp3" type="audio/mp3">
+    </audio> 
+    <!-- preloads -->
+     <audio controls preload="metadata">
+        <source src="../MultiMedia/Audio/sample-3s.mp3" type="audio/mp3">
+     </audio>
+     <!-- audio loaded wil be click -->
+     <audio muted loop controls  preload="none">
+        <source src="../MultiMedia/Audio/sample-3s.mp3" type="audio/mp3">
+     </audio>
+</body>
+</html>
